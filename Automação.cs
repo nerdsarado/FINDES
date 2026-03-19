@@ -33,6 +33,7 @@ namespace FINDES
             playwright = await Playwright.CreateAsync();
             browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
             {
+                ExecutablePath = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
                 Headless = Headless
             });
             var context = await browser.NewContextAsync();
