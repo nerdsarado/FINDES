@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FINDES": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
