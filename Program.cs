@@ -13,7 +13,6 @@ namespace Findes
         {
             List<string> cde = new List<string>();
             bool continuar = true;
-            Console.Clear();
             Console.WriteLine("Iniciando automação...");
 
             try
