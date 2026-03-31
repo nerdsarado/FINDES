@@ -12,7 +12,7 @@ namespace FINDES
 {
     public class Automação
     {
-        public const bool Headless = false;
+        public const bool Headless = true;
         private readonly string cnpj = "20.837.281/0001-49";
         private readonly string razãoSocial = "UNIAO COMERCIO DE INFORMATICA EIRELI";
         private readonly string email = "vendas@venturainformatica.com.br";
